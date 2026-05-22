@@ -54,11 +54,11 @@ Metrics:
 ## Project Structure
 
 ```text
-dynamic_factory_env.py
+factory_env.py
 multi_agent_factory_env.py
-train_centralized_dqn_dynamic.py
+train_centralized_dqn.py
 train_multi_agent_iql.py
-evaluate_advanced.py
+evaluate.py
 test_envs.py
 requirements.txt
 README.md
@@ -145,7 +145,7 @@ python test_envs.py
 Train centralized DQN:
 
 ```bash
-python train_centralized_dqn_dynamic.py
+python train_centralized_dqn.py
 ```
 
 Train multi-agent IQL:
@@ -157,7 +157,7 @@ python train_multi_agent_iql.py
 Run evaluation:
 
 ```bash
-python evaluate_advanced.py
+python evaluate.py
 ```
 
 ---
